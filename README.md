@@ -15,7 +15,7 @@
 
 ## Structure du projet
 
-
+```
 projet-progressif/
 ├── config/
 │   └── config.php              ← BASE_URL, BDD, constantes
@@ -43,3 +43,4 @@ projet-progressif/
 │       └── img/
 ├── bdd_projet_web.sql          ← Script SQL à importer
 └── liens.txt                   ← URLs GitHub
+```
