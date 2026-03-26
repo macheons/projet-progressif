@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+# Tout redirige vers index.php sauf les fichiers existants
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Sécurité : désactiver l'accès aux fichiers sensibles
+<FilesMatch "\.(sql|log|env|ini)$">
+    Require all denied
+</FilesMatch>
