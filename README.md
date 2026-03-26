@@ -18,28 +18,28 @@
 
 projet-progressif/
 ├── config/
-│   └── config.php          ← BASE_URL, BDD, constantes
+│   └── config.php              ← BASE_URL, BDD, constantes
 ├── core/
-│   ├── Autoloader.php      ← Chargement automatique
-│   ├── Controller.php      ← Contrôleur de base
-│   ├── CsrfManager.php     ← Jetons CSRF
-│   ├── Database.php        ← Singleton PDO
-│   ├── RateLimiter.php     ← Limitation de requêtes
-│   ├── Router.php          ← Routeur
-│   └── SessionManager.php  ← Session sécurisée
+│   ├── Autoloader.php          ← Chargement automatique
+│   ├── Controller.php          ← Contrôleur de base
+│   ├── CsrfManager.php         ← Jetons CSRF
+│   ├── Database.php            ← Singleton PDO
+│   ├── RateLimiter.php         ← Limitation de requêtes
+│   ├── Router.php              ← Routeur
+│   └── SessionManager.php      ← Session sécurisée
 ├── app/
-│   ├── Controllers/        ← Un contrôleur par page
-│   ├── Models/             ← Logique BDD
-│   └── Views/              ← Vues HTML/PHP
+│   ├── Controllers/            ← Un contrôleur par page
+│   ├── Models/                 ← Logique BDD
+│   └── Views/                  ← Vues HTML/PHP
 ├── templates/
-│   ├── header.php          ← Template réutilisable
+│   ├── header.php              ← Template réutilisable
 │   └── footer.php
-├── public/                 ← SEUL dossier web-accessible
-│   ├── index.php           ← Front controller
+├── public/                     ← SEUL dossier web-accessible
+│   ├── index.php               ← Front controller
 │   ├── .htaccess
 │   └── assets/
-│       ├── css/style.css   ← CSS responsive
-│       ├── js/             ← Modules JS
+│       ├── css/style.css       ← CSS responsive
+│       ├── js/                 ← Modules JS
 │       └── img/
-├── bdd_projet_web.sql      ← Script SQL à importer
-
+├── bdd_projet_web.sql          ← Script SQL à importer
+└── liens.txt                   ← URLs GitHub
